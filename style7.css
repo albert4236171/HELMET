@@ -32,7 +32,7 @@ a {
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1450px;
     margin: 0 auto;
 }
 
@@ -49,11 +49,9 @@ header {
     width: 100%;
 }
 
-
 .logo {
     display: flex;
     align-items: center;
-
     font-family: "Russo One", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
@@ -64,7 +62,6 @@ header {
     height: 40px;
     margin-right: 10px;
 }
-
 
 .navigation ol {
     list-style: none;
@@ -83,12 +80,10 @@ header {
     color: #EA5728;
 }
 
-
 .section1 {
-    padding: 60px 0 60px;
-    background-color: #1C1C1C;
+    padding: 80px 0 25px;
+    background-color: #1a1a1a;
 }
-
 
 .section1 h1.text1_1 {
     font-family: "Russo One", sans-serif;
@@ -98,7 +93,6 @@ header {
     text-transform: uppercase;
 }
 
-
 .section1 p.text2_1 {
     color: #ffffff;
     font-size: 24px;
@@ -106,25 +100,24 @@ header {
     font-weight: 500;
 }
 
-
 .map-wrapper {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 35px;
     overflow: hidden;
 }
 
 .map-wrapper iframe {
     width: 100%;
-    height: 500px;
+    height: 560px;
     border: none;
     display: block;
 }
 
 
 .section2 {
-    background-color: #1C1C1C;
-    padding: 0px 0 50px;
+    background-color: #1a1a1a;
+    padding: 25px 0 80px;
 }
 
 .section2 h2 {
@@ -135,7 +128,6 @@ header {
     margin-bottom: 60px;
 }
 
-
 .cards-wrapper {
     display: flex;
     justify-content: center;
@@ -143,18 +135,13 @@ header {
     flex-wrap: wrap;
 }
 
-
 .contact-card {
     background-color: #EA5728;
-
     border-radius: 35px;
-
     padding: 35px;
-
     flex: 1;
     min-width: 320px;
     max-width: 500px;
-
     transition: 0.4s;
 }
 
@@ -166,12 +153,9 @@ header {
     font-family: "Russo One", sans-serif;
     font-size: 30px;
     color: #ffffff;
-
     text-align: center;
-
     margin-bottom: 35px;
 }
-
 
 .card-body {
     display: flex;
@@ -186,18 +170,19 @@ header {
     margin-bottom: 12px;
 }
 
-
-
 .card-right {
     text-align: right;
 }
+
+/* ========================= */
+/* SOCIAL */
+/* ========================= */
 
 .section7 {
     background-color: #E0E0E0;
     color: #1C1C1C;
     padding: 30px 0;
 }
-
 
 .social-link {
     display: flex;
@@ -206,13 +191,11 @@ header {
     gap: 50px;
 }
 
-
 .section7 p {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
-
 
 .social-icons {
     display: flex;
@@ -250,304 +233,321 @@ footer p:hover {
 
 @media (max-width: 1024px) {
 
-  .container {
-    width: 90%;
-  }
+    .container {
+        width: 92%;
+    }
 
+    .header-flex {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 
-  .header-flex {
-    gap: 20px;
-    flex-wrap: wrap;
-  }
+    .logo {
+        font-size: 40px;
+    }
 
-  .logo {
-    font-size: 40px;
-  }
+    .logo img {
+        height: 34px;
+    }
 
-  .logo img {
-    height: 34px;
-  }
+    .navigation ol {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
 
-  .navigation ol {
-    gap: 16px;
-    flex-wrap: wrap;
-  }
+    .navigation a {
+        font-size: 15px;
+    }
 
-  .navigation a {
-    font-size: 15px;
-  }
+    .section1 {
+        padding: 60px 0 20px;
+    }
 
+    .section1 h1.text1_1 {
+        font-size: 52px;
+        margin-bottom: 28px;
+    }
 
-  .section1 {
-    padding: 70px 0 50px;
-  }
+    .section1 p.text2_1 {
+        font-size: 21px;
+    }
 
-  .section1 h1.text1_1 {
-    font-size: 52px;
-    margin-bottom: 30px;
-  }
+    .map-wrapper {
+        margin-top: 22px;
+    }
 
-  .section1 p.text2_1 {
-    font-size: 21px;
-  }
+    .map-wrapper iframe {
+        height: 430px;
+    }
 
-  .map-wrapper iframe {
-    height: 420px;
-  }
+    .section2 {
+        padding: 20px 0 60px;
+    }
 
+    .section2 h2 {
+        font-size: 50px;
+        margin-bottom: 45px;
+    }
 
-  .section2 {
-    padding: 60px 0;
-  }
+    .cards-wrapper {
+        gap: 30px;
+    }
 
-  .section2 h2 {
-    font-size: 50px;
-    margin-bottom: 50px;
-  }
+    .contact-card {
+        min-width: 280px;
+        max-width: 420px;
+        padding: 30px;
+    }
 
-  .cards-wrapper {
-    gap: 30px;
-  }
+    .card-title {
+        font-size: 26px;
+    }
 
-  .contact-card {
-    min-width: 280px;
-    max-width: 420px;
-    padding: 30px;
-  }
+    .card-left p,
+    .card-right p {
+        font-size: 18px;
+    }
 
-  .card-title {
-    font-size: 26px;
-  }
+    .social-link {
+        gap: 35px;
+    }
 
-  .card-left p,
-  .card-right p {
-    font-size: 18px;
-  }
-
-  .social-link {
-    gap: 35px;
-  }
-
-  .social-icons img {
-    width: 52px;
-    height: 52px;
-  }
+    .social-icons img {
+        width: 52px;
+        height: 52px;
+    }
 }
+
 
 @media (max-width: 768px) {
 
-  .container {
-    width: 92%;
-  }
+    .container {
+        width: 94%;
+    }
 
- 
+    header {
+        padding: 18px 0;
+    }
 
-  header {
-    padding: 18px 0;
-  }
+    .header-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
-  .header-flex {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+    .logo {
+        font-size: 34px;
+    }
 
-  .logo {
-    font-size: 34px;
-  }
+    .logo img {
+        height: 34px;
+        margin-right: 10px;
+    }
 
-  .logo img {
-    height: 34px;
-    margin-right: 10px;
-  }
+    .navigation ol {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
 
-  .navigation ol {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 14px;
-  }
+    .navigation a {
+        font-size: 14px;
+    }
 
-  .navigation a {
-    font-size: 14px;
-  }
+    .section1 {
+        padding: 45px 0 18px;
+    }
 
-  .section1 {
-    padding: 55px 0 45px;
-  }
+    .section1 h1.text1_1 {
+        font-size: 38px;
+        margin-bottom: 22px;
+        text-align: center;
+        line-height: 1.2;
+    }
 
-  .section1 h1.text1_1 {
-    font-size: 38px;
-    margin-bottom: 24px;
-    text-align: center;
-  }
+    .section1 p.text2_1 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.5;
+    }
 
-  .section1 p.text2_1 {
-    font-size: 18px;
-    text-align: center;
-    line-height: 1.5;
-  }
+    .map-wrapper {
+        margin-top: 18px;
+        border-radius: 24px;
+    }
 
-  .map-wrapper {
-    margin-top: 35px;
-    border-radius: 24px;
-  }
+    .map-wrapper iframe {
+        height: 300px;
+    }
 
-  .map-wrapper iframe {
-    height: 320px;
-  }
+    .section2 {
+        padding: 18px 0 50px;
+    }
 
-  .section2 {
-    padding: 30 px 0 15 px;
-  }
+    .section2 h2 {
+        font-size: 36px;
+        margin-bottom: 32px;
+        line-height: 1.2;
+    }
 
-  .section2 h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-    line-height: 1.2;
-  }
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
 
-  .cards-wrapper {
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-  }
+    .contact-card {
+        width: 85%;
+        max-width: 360px;
+        min-width: unset;
+        padding: 26px;
+        border-radius: 28px;
+    }
 
-  .contact-card {
-    width: 85%;
-    max-width: 360px;
-    min-width: unset;
-    padding: 26px;
-    border-radius: 28px;
-  }
+    .card-title {
+        font-size: 22px;
+        margin-bottom: 26px;
+    }
 
-  .card-title {
-    font-size: 22px;
-    margin-bottom: 26px;
-  }
+    .card-body {
+        gap: 15px;
+    }
 
-  .card-body {
-    gap: 15px;
-  }
+    .card-left p,
+    .card-right p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 
-  .card-left p,
-  .card-right p {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
+    .social-link {
+        flex-direction: column;
+        gap: 20px;
+    }
 
-  .social-link {
-    flex-direction: column;
-    gap: 20px;
-  }
+    .section7 p {
+        font-size: 18px;
+    }
 
-  .section7 p {
-    font-size: 18px;
-  }
+    .social-icons {
+        gap: 16px;
+    }
 
-  .social-icons {
-    gap: 16px;
-  }
+    .social-icons img {
+        width: 46px;
+        height: 46px;
+    }
 
-  .social-icons img {
-    width: 46px;
-    height: 46px;
-  }
+    footer {
+        padding: 24px 0;
+    }
 
-
-  footer {
-    padding: 24px 0;
-  }
-
-  footer p {
-    font-size: 16px;
-  }
+    footer p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 480px) {
 
-  .container {
-    width: 94%;
-  }
-    
-  .section2 {
-    padding: 30 px 0 15 px;
-  }
+    .container {
+        width: 96%;
+    }
 
-  .logo {
-    font-size: 26px;
-  }
+    .logo {
+        font-size: 26px;
+    }
 
-  .logo img {
-    height: 28px;
-  }
+    .logo img {
+        height: 28px;
+    }
 
-  .navigation ol {
-    gap: 10px;
-  }
+    .navigation ol {
+        gap: 10px;
+    }
 
-  .navigation a {
-    font-size: 12px;
-  }
+    .navigation a {
+        font-size: 12px;
+    }
 
+    .section1 {
+        padding: 35px 0 14px;
+    }
 
-  .section1 h1.text1_1 {
-    font-size: 30px;
-  }
+    .section1 h1.text1_1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+        text-align: center;
+        line-height: 1.2;
+    }
 
-  .section1 p.text2_1 {
-    font-size: 15px;
-  }
+    .section1 p.text2_1 {
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.5;
+    }
 
-  .map-wrapper {
-    border-radius: 18px;
-  }
+    .map-wrapper {
+        margin-top: 14px;
+        border-radius: 18px;
+    }
 
-  .map-wrapper iframe {
-    height: 240px;
-  }
+    /* КАРТА ШИРЕ И НЕ УЗКАЯ */
+    .map-wrapper iframe {
+        height: 240px;
+    }
 
+    .section2 {
+        padding: 14px 0 40px;
+    }
 
-  .section2 h2 {
-    font-size: 28px;
-  }
+    .section2 h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+        line-height: 1.2;
+    }
 
-  .contact-card {
-    width: 90%;
-    max-width: 300px;
-    padding: 20px;
-    border-radius: 22px;
-  }
+    .cards-wrapper {
+        gap: 18px;
+    }
 
-  .card-title {
-    font-size: 18px;
-  }
+    .contact-card {
+        width: 92%;
+        max-width: 320px;
+        padding: 20px;
+        border-radius: 22px;
+    }
 
-  .card-body {
-    flex-direction: column;
-    gap: 12px;
-  }
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
 
-  .card-right {
-    text-align: left;
-  }
+    .card-body {
+        flex-direction: column;
+        gap: 12px;
+    }
 
-  .card-left p,
-  .card-right p {
-    font-size: 14px;
-  }
+    .card-right {
+        text-align: left;
+    }
 
+    .card-left p,
+    .card-right p {
+        font-size: 14px;
+    }
 
-  .section7 p {
-    font-size: 16px;
-  }
+    .section7 p {
+        font-size: 16px;
+        text-align: center;
+    }
 
-  .social-icons img {
-    width: 40px;
-    height: 40px;
-  }
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+    }
 
-  footer p {
-    font-size: 14px;
-  }
+    footer p {
+        font-size: 14px;
+    }
 }
+
 
