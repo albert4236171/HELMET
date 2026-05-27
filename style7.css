@@ -297,7 +297,7 @@ footer p:hover {
 
 
   .section2 {
-    padding: 60px 0 30px;
+    padding: 60px 0;
   }
 
   .section2 h2 {
@@ -467,6 +467,10 @@ footer p:hover {
 
   .container {
     width: 94%;
+  }
+    
+  .section2 {
+    padding: 30 px 0 15 px;
   }
 
   .logo {
